@@ -1,6 +1,4 @@
-/**********************************************
-*** GENERAL
-**********************************************/
+/*** GENERAL ***/
 
 * {
     box-sizing: border-box;
@@ -15,7 +13,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back.jpg);
+    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(background.jpg);
     background-position: center;
     background-size: cover;
     color: #555;
@@ -23,6 +21,23 @@ body {
     font-weight: 300;
     height: 100vh;
     position: relative;
+}
+
+a {
+    color: #b8a098;
+    text-decoration: none;
+}
+
+p {
+    color: #b8a098;
+    margin: 10px;
+}
+
+footer {
+    bottom: 10px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
 }
 
 .wrapper {
@@ -45,9 +60,7 @@ body {
 }
 
 
-/**********************************************
-*** PLAYERS
-**********************************************/
+/*** PLAYERS ***/
 
 .player-name {
     font-size: 40px;
