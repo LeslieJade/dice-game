@@ -64,7 +64,6 @@ footer {
 
 .player-name {
     font-size: 40px;
-    font-weight: 100;
     letter-spacing: 2px;
     margin-bottom: 10px;
     margin-top: 20px;
@@ -76,7 +75,6 @@ footer {
 .player-score {
     color: #EB4D4D;
     font-size: 80px;
-    font-weight: 100;
     margin-bottom: 130px;
     text-align: center;
 }
@@ -86,7 +84,7 @@ footer {
 }
 
 .active .player-name { 
-    font-weight: 300; 
+    font-weight: 400; 
 }
 
 .active .player-name::after {
@@ -109,7 +107,7 @@ footer {
 
 .player-current-label {
     color: #222;
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 10px;
     text-transform: uppercase;
 }
@@ -183,5 +181,5 @@ i {
 }
 
 .winner .player-name { 
-    font-weight: 300; color: #EB4D4D; 
+    font-weight: 400; color: #EB4D4D; 
 }
